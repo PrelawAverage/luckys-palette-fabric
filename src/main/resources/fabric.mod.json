@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "luckys_palette",
+	"version": "${version}",
+	"name": "Lucky's Palette",
+	"description": "This mod adds new blocks into the game!",
+	"authors": [
+		"LuckyOwl and ChipDip"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/luckys_palette/luckys_palette_icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.luckyowl.LuckysPalette"
+		],
+		"client": [
+			"net.luckyowl.LuckysPaletteClient"
+		],
+		"fabric-datagen": [
+			"net.luckyowl.LuckysPaletteDataGenerator"
+		]
+	},
+	"mixins": [
+		"luckys-palette.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
