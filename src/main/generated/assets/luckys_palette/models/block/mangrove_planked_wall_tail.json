@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "luckys_palette:block/mangrove_planked_wall_end",
+    "side": "luckys_palette:block/mangrove_planked_wall_tail"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "luckys_palette:block/iron_frame_slab"
+    },
+    "type=double": {
+      "model": "luckys_palette:block/iron_frame_slab_double"
+    },
+    "type=top": {
+      "model": "luckys_palette:block/iron_frame_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "luckys_palette:block/gold_frame"
+  }
+}

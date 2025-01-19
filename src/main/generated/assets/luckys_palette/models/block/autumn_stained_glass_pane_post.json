@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_post",
+  "textures": {
+    "edge": "luckys_palette:block/autumn_stained_glass_pane_top",
+    "pane": "luckys_palette:block/autumn_stained_glass"
+  }
+}

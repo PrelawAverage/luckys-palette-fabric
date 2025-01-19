@@ -1,0 +1,8 @@
+{
+  "parent": "luckys_palette:block/lattice",
+  "textures": {
+    "particle": "luckys_palette:block/bamboo_block_top",
+    "side": "minecraft:block/bamboo_block",
+    "top": "luckys_palette:block/bamboo_block_top"
+  }
+}

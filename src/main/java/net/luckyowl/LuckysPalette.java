@@ -2,6 +2,11 @@ package net.luckyowl;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.luckyowl.common.ModFlammableBlocks;
+import net.luckyowl.common.ModFuels;
+import net.luckyowl.common.ModItemGroups;
+import net.luckyowl.common.block.ModBlocks;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,10 +20,13 @@ public class LuckysPalette implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerModItemGroups();
+		ModFlammableBlocks.registerFlammables();
+		ModFuels.registerFuels();
+	}
 
-		LOGGER.info("Hello Fabric world!");
+	public static Identifier ofMod(String path) {
+		return Identifier.of(MOD_ID, path);
 	}
 }

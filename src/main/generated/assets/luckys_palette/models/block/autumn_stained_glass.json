@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "luckys_palette:block/autumn_stained_glass"
+  }
+}

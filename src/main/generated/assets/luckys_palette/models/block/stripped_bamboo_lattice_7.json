@@ -1,0 +1,8 @@
+{
+  "parent": "luckys_palette:block/lattice_7",
+  "textures": {
+    "particle": "luckys_palette:block/stripped_bamboo_block_top",
+    "side": "minecraft:block/stripped_bamboo_block",
+    "top": "luckys_palette:block/stripped_bamboo_block_top"
+  }
+}

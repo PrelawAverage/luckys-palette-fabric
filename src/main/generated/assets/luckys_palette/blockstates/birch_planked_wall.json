@@ -1,0 +1,56 @@
+{
+  "variants": {
+    "axis=x,vertical_connection=head": {
+      "model": "luckys_palette:block/birch_planked_wall_head",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,vertical_connection=middle": {
+      "model": "luckys_palette:block/birch_planked_wall_middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,vertical_connection=single": {
+      "model": "luckys_palette:block/birch_planked_wall",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,vertical_connection=tail": {
+      "model": "luckys_palette:block/birch_planked_wall_tail",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,vertical_connection=head": {
+      "model": "luckys_palette:block/birch_planked_wall_head",
+      "y": 90
+    },
+    "axis=y,vertical_connection=middle": {
+      "model": "luckys_palette:block/birch_planked_wall_middle",
+      "y": 90
+    },
+    "axis=y,vertical_connection=single": {
+      "model": "luckys_palette:block/birch_planked_wall",
+      "y": 90
+    },
+    "axis=y,vertical_connection=tail": {
+      "model": "luckys_palette:block/birch_planked_wall_tail",
+      "y": 90
+    },
+    "axis=z,vertical_connection=head": {
+      "model": "luckys_palette:block/birch_planked_wall_head",
+      "x": 90
+    },
+    "axis=z,vertical_connection=middle": {
+      "model": "luckys_palette:block/birch_planked_wall_middle",
+      "x": 90
+    },
+    "axis=z,vertical_connection=single": {
+      "model": "luckys_palette:block/birch_planked_wall",
+      "x": 90
+    },
+    "axis=z,vertical_connection=tail": {
+      "model": "luckys_palette:block/birch_planked_wall_tail",
+      "x": 90
+    }
+  }
+}
