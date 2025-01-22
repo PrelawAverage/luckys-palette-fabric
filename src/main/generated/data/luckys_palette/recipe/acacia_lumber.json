@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_log"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 12,
+    "id": "luckys_palette:acacia_lumber"
+  }
+}

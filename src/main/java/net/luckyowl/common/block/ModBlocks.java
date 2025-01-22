@@ -39,8 +39,8 @@ public class ModBlocks {
         return new BeamBlock(.25f, AbstractBlock.Settings.copy(block));
     }
 
-    private static Block createLatticeBlock(Block block) {
-        return new LatticeBlock(AbstractBlock.Settings.copy(block));
+    private static Block createLumberBlock(Block block) {
+        return new LumberBlock(AbstractBlock.Settings.copy(block));
     }
 
     public static final Block BOOKSHELF_STAIRS = registerBlock("bookshelf_stairs", createStairsBlock(Blocks.BOOKSHELF));
@@ -99,29 +99,29 @@ public class ModBlocks {
     public static final Block STRIPPED_CRIMSON_BEAM = registerBlock("stripped_crimson_beam", createBeam(Blocks.CRIMSON_PLANKS));
     public static final Block STRIPPED_WARPED_BEAM = registerBlock("stripped_warped_beam", createBeam(Blocks.WARPED_PLANKS));
 
-    // Lattice Blocks
-    public static final Block OAK_LOG_LATTICE = registerBlock("oak_log_lattice", createLatticeBlock(Blocks.OAK_PLANKS));
-    public static final Block SPRUCE_LOG_LATTICE = registerBlock("spruce_log_lattice", createLatticeBlock(Blocks.SPRUCE_PLANKS));
-    public static final Block BIRCH_LOG_LATTICE = registerBlock("birch_log_lattice", createLatticeBlock(Blocks.BIRCH_PLANKS));
-    public static final Block JUNGLE_LOG_LATTICE = registerBlock("jungle_log_lattice", createLatticeBlock(Blocks.JUNGLE_PLANKS));
-    public static final Block ACACIA_LOG_LATTICE = registerBlock("acacia_log_lattice", createLatticeBlock(Blocks.ACACIA_PLANKS));
-    public static final Block DARK_OAK_LOG_LATTICE = registerBlock("dark_oak_log_lattice", createLatticeBlock(Blocks.DARK_OAK_PLANKS));
-    public static final Block MANGROVE_LOG_LATTICE = registerBlock("mangrove_log_lattice", createLatticeBlock(Blocks.MANGROVE_PLANKS));
-    public static final Block CHERRY_LOG_LATTICE = registerBlock("cherry_log_lattice", createLatticeBlock(Blocks.CHERRY_PLANKS));
-    public static final Block BAMBOO_LATTICE = registerBlock("bamboo_lattice", createLatticeBlock(Blocks.BAMBOO_PLANKS));
-    public static final Block CRIMSON_STEM_LATTICE = registerBlock("crimson_stem_lattice", createLatticeBlock(Blocks.CRIMSON_PLANKS));
-    public static final Block WARPED_STEM_LATTICE = registerBlock("warped_stem_lattice", createLatticeBlock(Blocks.WARPED_PLANKS));
-    public static final Block STRIPPED_OAK_LOG_LATTICE = registerBlock("stripped_oak_log_lattice", createLatticeBlock(Blocks.OAK_PLANKS));
-    public static final Block STRIPPED_SPRUCE_LOG_LATTICE = registerBlock("stripped_spruce_log_lattice", createLatticeBlock(Blocks.SPRUCE_PLANKS));
-    public static final Block STRIPPED_BIRCH_LOG_LATTICE = registerBlock("stripped_birch_log_lattice", createLatticeBlock(Blocks.BIRCH_PLANKS));
-    public static final Block STRIPPED_JUNGLE_LOG_LATTICE = registerBlock("stripped_jungle_log_lattice", createLatticeBlock(Blocks.JUNGLE_PLANKS));
-    public static final Block STRIPPED_ACACIA_LOG_LATTICE = registerBlock("stripped_acacia_log_lattice", createLatticeBlock(Blocks.ACACIA_PLANKS));
-    public static final Block STRIPPED_DARK_OAK_LOG_LATTICE = registerBlock("stripped_dark_oak_log_lattice", createLatticeBlock(Blocks.DARK_OAK_PLANKS));
-    public static final Block STRIPPED_MANGROVE_LOG_LATTICE = registerBlock("stripped_mangrove_log_lattice", createLatticeBlock(Blocks.MANGROVE_PLANKS));
-    public static final Block STRIPPED_CHERRY_LOG_LATTICE = registerBlock("stripped_cherry_log_lattice", createLatticeBlock(Blocks.CHERRY_PLANKS));
-    public static final Block STRIPPED_BAMBOO_LATTICE = registerBlock("stripped_bamboo_lattice", createLatticeBlock(Blocks.BAMBOO_PLANKS));
-    public static final Block STRIPPED_CRIMSON_STEM_LATTICE = registerBlock("stripped_crimson_log_lattice", createLatticeBlock(Blocks.CRIMSON_PLANKS));
-    public static final Block STRIPPED_WARPED_STEM_LATTICE = registerBlock("stripped_warped_log_lattice", createLatticeBlock(Blocks.WARPED_PLANKS));
+    // Lumber Blocks
+    public static final Block OAK_LUMBER = registerBlock("oak_lumber", createLumberBlock(Blocks.OAK_PLANKS));
+    public static final Block SPRUCE_LUMBER = registerBlock("spruce_lumber", createLumberBlock(Blocks.SPRUCE_PLANKS));
+    public static final Block BIRCH_LUMBER = registerBlock("birch_lumber", createLumberBlock(Blocks.BIRCH_PLANKS));
+    public static final Block JUNGLE_LUMBER = registerBlock("jungle_lumber", createLumberBlock(Blocks.JUNGLE_PLANKS));
+    public static final Block ACACIA_LUMBER = registerBlock("acacia_lumber", createLumberBlock(Blocks.ACACIA_PLANKS));
+    public static final Block DARK_OAK_LUMBER = registerBlock("dark_oak_lumber", createLumberBlock(Blocks.DARK_OAK_PLANKS));
+    public static final Block MANGROVE_LUMBER = registerBlock("mangrove_lumber", createLumberBlock(Blocks.MANGROVE_PLANKS));
+    public static final Block CHERRY_LUMBER = registerBlock("cherry_lumber", createLumberBlock(Blocks.CHERRY_PLANKS));
+    public static final Block BAMBOO_STALK = registerBlock("bamboo_stalk", createLumberBlock(Blocks.BAMBOO_PLANKS));
+    public static final Block CRIMSON_LUMBER = registerBlock("crimson_lumber", createLumberBlock(Blocks.CRIMSON_PLANKS));
+    public static final Block WARPED_LUMBER = registerBlock("warped_lumber", createLumberBlock(Blocks.WARPED_PLANKS));
+    public static final Block STRIPPED_OAK_LUMBER = registerBlock("stripped_oak_lumber", createLumberBlock(Blocks.OAK_PLANKS));
+    public static final Block STRIPPED_SPRUCE_LUMBER = registerBlock("stripped_spruce_lumber", createLumberBlock(Blocks.SPRUCE_PLANKS));
+    public static final Block STRIPPED_BIRCH_LUMBER = registerBlock("stripped_birch_lumber", createLumberBlock(Blocks.BIRCH_PLANKS));
+    public static final Block STRIPPED_JUNGLE_LUMBER = registerBlock("stripped_jungle_lumber", createLumberBlock(Blocks.JUNGLE_PLANKS));
+    public static final Block STRIPPED_ACACIA_LUMBER = registerBlock("stripped_acacia_lumber", createLumberBlock(Blocks.ACACIA_PLANKS));
+    public static final Block STRIPPED_DARK_OAK_LUMBER = registerBlock("stripped_dark_oak_lumber", createLumberBlock(Blocks.DARK_OAK_PLANKS));
+    public static final Block STRIPPED_MANGROVE_LUMBER = registerBlock("stripped_mangrove_lumber", createLumberBlock(Blocks.MANGROVE_PLANKS));
+    public static final Block STRIPPED_CHERRY_LUMBER = registerBlock("stripped_cherry_lumber", createLumberBlock(Blocks.CHERRY_PLANKS));
+    public static final Block STRIPPED_BAMBOO_STALK = registerBlock("stripped_bamboo_stalk", createLumberBlock(Blocks.BAMBOO_PLANKS));
+    public static final Block STRIPPED_CRIMSON_LUMBER = registerBlock("stripped_crimson_lumber", createLumberBlock(Blocks.CRIMSON_PLANKS));
+    public static final Block STRIPPED_WARPED_LUMBER = registerBlock("stripped_warped_lumber", createLumberBlock(Blocks.WARPED_PLANKS));
 
     // Glass
     public static final Block AUTUMN_STAINED_GLASS = registerBlock("autumn_stained_glass", createTranslucentBlock(Blocks.BLACK_STAINED_GLASS));

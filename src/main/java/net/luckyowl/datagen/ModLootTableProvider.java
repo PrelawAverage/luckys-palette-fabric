@@ -3,10 +3,19 @@ package net.luckyowl.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.luckyowl.common.block.ModBlocks;
+import net.luckyowl.common.block.util.ModProperties;
+import net.minecraft.block.Block;
 import net.minecraft.item.Items;
+import net.minecraft.loot.LootPool;
+import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
+import net.minecraft.loot.entry.ItemEntry;
+import net.minecraft.loot.entry.LootPoolEntry;
+import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.registry.RegistryWrapper;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
@@ -88,27 +97,38 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_WARPED_BEAM);
 
         // LATTICE BLOCKS
-        addDrop(ModBlocks.OAK_LOG_LATTICE);
-        addDrop(ModBlocks.SPRUCE_LOG_LATTICE);
-        addDrop(ModBlocks.BIRCH_LOG_LATTICE);
-        addDrop(ModBlocks.JUNGLE_LOG_LATTICE);
-        addDrop(ModBlocks.ACACIA_LOG_LATTICE);
-        addDrop(ModBlocks.DARK_OAK_LOG_LATTICE);
-        addDrop(ModBlocks.MANGROVE_LOG_LATTICE);
-        addDrop(ModBlocks.CHERRY_LOG_LATTICE);
-        addDrop(ModBlocks.BAMBOO_LATTICE);
-        addDrop(ModBlocks.CRIMSON_STEM_LATTICE);
-        addDrop(ModBlocks.WARPED_STEM_LATTICE);
-        addDrop(ModBlocks.STRIPPED_OAK_LOG_LATTICE);
-        addDrop(ModBlocks.STRIPPED_SPRUCE_LOG_LATTICE);
-        addDrop(ModBlocks.STRIPPED_BIRCH_LOG_LATTICE);
-        addDrop(ModBlocks.STRIPPED_JUNGLE_LOG_LATTICE);
-        addDrop(ModBlocks.STRIPPED_ACACIA_LOG_LATTICE);
-        addDrop(ModBlocks.STRIPPED_DARK_OAK_LOG_LATTICE);
-        addDrop(ModBlocks.STRIPPED_MANGROVE_LOG_LATTICE);
-        addDrop(ModBlocks.STRIPPED_CHERRY_LOG_LATTICE);
-        addDrop(ModBlocks.STRIPPED_BAMBOO_LATTICE);
-        addDrop(ModBlocks.STRIPPED_CRIMSON_STEM_LATTICE);
-        addDrop(ModBlocks.STRIPPED_WARPED_STEM_LATTICE);
+        addLumberDrops(ModBlocks.OAK_LUMBER);
+        addLumberDrops(ModBlocks.SPRUCE_LUMBER);
+        addLumberDrops(ModBlocks.BIRCH_LUMBER);
+        addLumberDrops(ModBlocks.JUNGLE_LUMBER);
+        addLumberDrops(ModBlocks.ACACIA_LUMBER);
+        addLumberDrops(ModBlocks.DARK_OAK_LUMBER);
+        addLumberDrops(ModBlocks.MANGROVE_LUMBER);
+        addLumberDrops(ModBlocks.CHERRY_LUMBER);
+        addLumberDrops(ModBlocks.BAMBOO_STALK);
+        addLumberDrops(ModBlocks.CRIMSON_LUMBER);
+        addLumberDrops(ModBlocks.WARPED_LUMBER);
+        addLumberDrops(ModBlocks.STRIPPED_OAK_LUMBER);
+        addLumberDrops(ModBlocks.STRIPPED_SPRUCE_LUMBER);
+        addLumberDrops(ModBlocks.STRIPPED_BIRCH_LUMBER);
+        addLumberDrops(ModBlocks.STRIPPED_JUNGLE_LUMBER);
+        addLumberDrops(ModBlocks.STRIPPED_ACACIA_LUMBER);
+        addLumberDrops(ModBlocks.STRIPPED_DARK_OAK_LUMBER);
+        addLumberDrops(ModBlocks.STRIPPED_MANGROVE_LUMBER);
+        addLumberDrops(ModBlocks.STRIPPED_CHERRY_LUMBER);
+        addLumberDrops(ModBlocks.STRIPPED_BAMBOO_STALK);
+        addLumberDrops(ModBlocks.STRIPPED_CRIMSON_LUMBER);
+        addLumberDrops(ModBlocks.STRIPPED_WARPED_LUMBER);
+    }
+
+    // Copied from candle block
+    public LootTable.Builder addLumberDrops(Block lattice) {
+        return LootTable.builder().pool(LootPool.builder().rolls(ConstantLootNumberProvider.create(1.0F))
+                .with((LootPoolEntry.Builder)
+                        this.applyExplosionDecay(lattice, ItemEntry.builder(lattice)
+                                .apply(List.of(2, 3, 4, 5, 6, 7, 8), (stackable) ->
+                                        SetCountLootFunction.builder(ConstantLootNumberProvider.create((float)stackable))
+                                                .conditionally(BlockStatePropertyLootCondition.builder(lattice)
+                                                .properties(net.minecraft.predicate.StatePredicate.Builder.create().exactMatch(ModProperties.STACKABLE, stackable)))))));
     }
 }

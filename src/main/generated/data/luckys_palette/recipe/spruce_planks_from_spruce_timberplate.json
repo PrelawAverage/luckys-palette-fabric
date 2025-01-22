@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "building_blocks",
+  "ingredients": [
+    {
+      "item": "luckys_palette:spruce_timberplate"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:spruce_planks"
+  }
+}

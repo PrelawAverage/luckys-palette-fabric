@@ -84,70 +84,70 @@ public class ModModelProvider extends FabricModelProvider {
                 Identifier.ofVanilla("block/glass"),
                 Identifier.of(LuckysPalette.MOD_ID, "block/glass_side"));
 
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.OAK_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.OAK_LUMBER,
                 Identifier.ofVanilla("block/oak_log"),
                 Identifier.ofVanilla("block/oak_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.SPRUCE_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.SPRUCE_LUMBER,
                 Identifier.ofVanilla("block/spruce_log"),
                 Identifier.ofVanilla("block/spruce_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.BIRCH_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.BIRCH_LUMBER,
                 Identifier.ofVanilla("block/birch_log"),
                 Identifier.ofVanilla("block/birch_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.JUNGLE_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.JUNGLE_LUMBER,
                 Identifier.ofVanilla("block/jungle_log"),
                 Identifier.ofVanilla("block/jungle_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.ACACIA_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.ACACIA_LUMBER,
                 Identifier.ofVanilla("block/acacia_log"),
                 Identifier.ofVanilla("block/acacia_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.DARK_OAK_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.DARK_OAK_LUMBER,
                 Identifier.ofVanilla("block/dark_oak_log"),
                 Identifier.ofVanilla("block/dark_oak_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.MANGROVE_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.MANGROVE_LUMBER,
                 Identifier.ofVanilla("block/mangrove_log"),
                 Identifier.ofVanilla("block/mangrove_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.CHERRY_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.CHERRY_LUMBER,
                 Identifier.ofVanilla("block/cherry_log"),
                 Identifier.ofVanilla("block/cherry_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.BAMBOO_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.BAMBOO_STALK,
                 Identifier.ofVanilla("block/bamboo_block"),
                 LuckysPalette.ofMod("block/bamboo_block_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.CRIMSON_STEM_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.CRIMSON_LUMBER,
                 Identifier.ofVanilla("block/crimson_stem"),
                 Identifier.ofVanilla("block/crimson_stem_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.WARPED_STEM_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.WARPED_LUMBER,
                 Identifier.ofVanilla("block/warped_stem"),
                 Identifier.ofVanilla("block/warped_stem_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_OAK_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_OAK_LUMBER,
                 Identifier.ofVanilla("block/stripped_oak_log"),
                 Identifier.ofVanilla("block/stripped_oak_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_SPRUCE_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_SPRUCE_LUMBER,
                 Identifier.ofVanilla("block/stripped_spruce_log"),
                 Identifier.ofVanilla("block/stripped_spruce_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_BIRCH_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_BIRCH_LUMBER,
                 Identifier.ofVanilla("block/stripped_birch_log"),
                 Identifier.ofVanilla("block/stripped_birch_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_JUNGLE_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_JUNGLE_LUMBER,
                 Identifier.ofVanilla("block/stripped_jungle_log"),
                 Identifier.ofVanilla("block/stripped_jungle_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_ACACIA_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_ACACIA_LUMBER,
                 Identifier.ofVanilla("block/stripped_acacia_log"),
                 Identifier.ofVanilla("block/stripped_acacia_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_DARK_OAK_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_DARK_OAK_LUMBER,
                 Identifier.ofVanilla("block/stripped_dark_oak_log"),
                 Identifier.ofVanilla("block/stripped_dark_oak_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_MANGROVE_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_MANGROVE_LUMBER,
                 Identifier.ofVanilla("block/stripped_mangrove_log"),
                 Identifier.ofVanilla("block/stripped_mangrove_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_CHERRY_LOG_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_CHERRY_LUMBER,
                 Identifier.ofVanilla("block/stripped_cherry_log"),
                 Identifier.ofVanilla("block/stripped_cherry_log_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_BAMBOO_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_BAMBOO_STALK,
                 Identifier.ofVanilla("block/stripped_bamboo_block"),
                 LuckysPalette.ofMod("block/stripped_bamboo_block_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_CRIMSON_STEM_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_CRIMSON_LUMBER,
                 Identifier.ofVanilla("block/stripped_crimson_stem"),
                 Identifier.ofVanilla("block/stripped_crimson_stem_top"));
-        registerLatticeBlock(blockStateModelGenerator, ModBlocks.STRIPPED_WARPED_STEM_LATTICE,
+        registerLumberBlock(blockStateModelGenerator, ModBlocks.STRIPPED_WARPED_LUMBER,
                 Identifier.ofVanilla("block/stripped_warped_stem"),
                 Identifier.ofVanilla("block/stripped_warped_stem_top"));
     }
@@ -253,21 +253,21 @@ public class ModModelProvider extends FabricModelProvider {
                 ));
     }
 
-    public final void registerLatticeBlock(
+    public final void registerLumberBlock(
             BlockStateModelGenerator blockStateModelGenerator, Block block, Identifier topTexture, Identifier sideTexture) {
         TextureMap textureMap = new TextureMap()
                 .put(TextureKey.SIDE, topTexture)
                 .put(TextureKey.TOP, sideTexture)
                 .put(TextureKey.PARTICLE, sideTexture);
 
-        Identifier modelId1 = ModModels.LATTICE.upload(block, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier modelId2 = ModModels.LATTICE_2.upload(block, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier modelId3 = ModModels.LATTICE_3.upload(block, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier modelId4 = ModModels.LATTICE_4.upload(block, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier modelId5 = ModModels.LATTICE_5.upload(block, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier modelId6 = ModModels.LATTICE_6.upload(block, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier modelId7 = ModModels.LATTICE_7.upload(block, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier modelId8 = ModModels.LATTICE_8.upload(block, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier modelId1 = ModModels.LUMBER.upload(block, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier modelId2 = ModModels.LUMBER_2.upload(block, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier modelId3 = ModModels.LUMBER_3.upload(block, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier modelId4 = ModModels.LUMBER_4.upload(block, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier modelId5 = ModModels.LUMBER_5.upload(block, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier modelId6 = ModModels.LUMBER_6.upload(block, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier modelId7 = ModModels.LUMBER_7.upload(block, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier modelId8 = ModModels.LUMBER_8.upload(block, textureMap, blockStateModelGenerator.modelCollector);
 
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(block)
                 .coordinate(BlockStateVariantMap.create(ModProperties.ROTATED, ModProperties.STACKABLE)

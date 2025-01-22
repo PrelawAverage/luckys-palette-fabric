@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bamboo_beam": {
+      "conditions": {
+        "items": [
+          {
+            "items": "luckys_palette:bamboo_beam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bamboo_planks_from_bamboo_beam"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bamboo_beam"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bamboo_planks_from_bamboo_beam"
+    ]
+  }
+}

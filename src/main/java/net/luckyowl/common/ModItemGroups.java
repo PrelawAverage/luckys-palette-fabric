@@ -71,28 +71,28 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_WARPED_BEAM);
 
                         // LATTICE BLOCKS
-                        entries.add(ModBlocks.OAK_LOG_LATTICE);
-                        entries.add(ModBlocks.SPRUCE_LOG_LATTICE);
-                        entries.add(ModBlocks.BIRCH_LOG_LATTICE);
-                        entries.add(ModBlocks.JUNGLE_LOG_LATTICE);
-                        entries.add(ModBlocks.ACACIA_LOG_LATTICE);
-                        entries.add(ModBlocks.DARK_OAK_LOG_LATTICE);
-                        entries.add(ModBlocks.MANGROVE_LOG_LATTICE);
-                        entries.add(ModBlocks.CHERRY_LOG_LATTICE);
-                        entries.add(ModBlocks.BAMBOO_LATTICE);
-                        entries.add(ModBlocks.CRIMSON_STEM_LATTICE);
-                        entries.add(ModBlocks.WARPED_STEM_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_OAK_LOG_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_SPRUCE_LOG_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_BIRCH_LOG_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_JUNGLE_LOG_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_ACACIA_LOG_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_DARK_OAK_LOG_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_MANGROVE_LOG_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_CHERRY_LOG_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_BAMBOO_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_CRIMSON_STEM_LATTICE);
-                        entries.add(ModBlocks.STRIPPED_WARPED_STEM_LATTICE);
+                        entries.add(ModBlocks.OAK_LUMBER);
+                        entries.add(ModBlocks.SPRUCE_LUMBER);
+                        entries.add(ModBlocks.BIRCH_LUMBER);
+                        entries.add(ModBlocks.JUNGLE_LUMBER);
+                        entries.add(ModBlocks.ACACIA_LUMBER);
+                        entries.add(ModBlocks.DARK_OAK_LUMBER);
+                        entries.add(ModBlocks.MANGROVE_LUMBER);
+                        entries.add(ModBlocks.CHERRY_LUMBER);
+                        entries.add(ModBlocks.BAMBOO_STALK);
+                        entries.add(ModBlocks.CRIMSON_LUMBER);
+                        entries.add(ModBlocks.WARPED_LUMBER);
+                        entries.add(ModBlocks.STRIPPED_OAK_LUMBER);
+                        entries.add(ModBlocks.STRIPPED_SPRUCE_LUMBER);
+                        entries.add(ModBlocks.STRIPPED_BIRCH_LUMBER);
+                        entries.add(ModBlocks.STRIPPED_JUNGLE_LUMBER);
+                        entries.add(ModBlocks.STRIPPED_ACACIA_LUMBER);
+                        entries.add(ModBlocks.STRIPPED_DARK_OAK_LUMBER);
+                        entries.add(ModBlocks.STRIPPED_MANGROVE_LUMBER);
+                        entries.add(ModBlocks.STRIPPED_CHERRY_LUMBER);
+                        entries.add(ModBlocks.STRIPPED_BAMBOO_STALK);
+                        entries.add(ModBlocks.STRIPPED_CRIMSON_LUMBER);
+                        entries.add(ModBlocks.STRIPPED_WARPED_LUMBER);
 
                         // GLASS
                         entries.add(ModBlocks.AUTUMN_STAINED_GLASS);

@@ -51,23 +51,23 @@ public class ModFuels {
         FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_BAMBOO_BEAM, 50);
 
         // LATTICE BLOCKS
-        FuelRegistry.INSTANCE.add(ModBlocks.OAK_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.SPRUCE_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.BIRCH_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.JUNGLE_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.ACACIA_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.DARK_OAK_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.MANGROVE_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.CHERRY_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.BAMBOO_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_OAK_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_SPRUCE_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_BIRCH_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_JUNGLE_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_ACACIA_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_DARK_OAK_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_MANGROVE_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_CHERRY_LOG_LATTICE, 150);
-        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_BAMBOO_LATTICE, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.OAK_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.SPRUCE_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.BIRCH_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.JUNGLE_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.ACACIA_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.DARK_OAK_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.MANGROVE_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.CHERRY_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.BAMBOO_STALK, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_OAK_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_SPRUCE_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_BIRCH_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_JUNGLE_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_ACACIA_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_DARK_OAK_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_MANGROVE_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_CHERRY_LUMBER, 150);
+        FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_BAMBOO_STALK, 150);
     }
 }

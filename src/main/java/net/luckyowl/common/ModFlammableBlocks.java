@@ -52,23 +52,23 @@ public class ModFlammableBlocks {
         flammableBlockRegistry.add(ModBlocks.STRIPPED_BAMBOO_BEAM, 5, 20);
 
         // LATTICE BLOCKS
-        flammableBlockRegistry.add(ModBlocks.OAK_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.SPRUCE_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.BIRCH_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.JUNGLE_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.ACACIA_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.DARK_OAK_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.MANGROVE_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.CHERRY_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.BAMBOO_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.STRIPPED_OAK_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.STRIPPED_SPRUCE_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.STRIPPED_BIRCH_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.STRIPPED_JUNGLE_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.STRIPPED_ACACIA_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.STRIPPED_DARK_OAK_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.STRIPPED_MANGROVE_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.STRIPPED_CHERRY_LOG_LATTICE, 5, 20);
-        flammableBlockRegistry.add(ModBlocks.STRIPPED_BAMBOO_LATTICE, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.OAK_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.SPRUCE_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.BIRCH_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.JUNGLE_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.ACACIA_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.DARK_OAK_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.MANGROVE_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.CHERRY_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.BAMBOO_STALK, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.STRIPPED_OAK_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.STRIPPED_SPRUCE_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.STRIPPED_BIRCH_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.STRIPPED_JUNGLE_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.STRIPPED_ACACIA_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.STRIPPED_DARK_OAK_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.STRIPPED_MANGROVE_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.STRIPPED_CHERRY_LUMBER, 5, 20);
+        flammableBlockRegistry.add(ModBlocks.STRIPPED_BAMBOO_STALK, 5, 20);
     }
 }

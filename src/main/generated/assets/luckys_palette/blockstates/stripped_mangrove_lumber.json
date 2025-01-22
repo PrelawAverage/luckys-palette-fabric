@@ -1,0 +1,60 @@
+{
+  "variants": {
+    "rotated=false,stackable=1": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber"
+    },
+    "rotated=false,stackable=2": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_2"
+    },
+    "rotated=false,stackable=3": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_3"
+    },
+    "rotated=false,stackable=4": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_4"
+    },
+    "rotated=false,stackable=5": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_5"
+    },
+    "rotated=false,stackable=6": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_6"
+    },
+    "rotated=false,stackable=7": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_7"
+    },
+    "rotated=false,stackable=8": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_8"
+    },
+    "rotated=true,stackable=1": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber",
+      "y": 90
+    },
+    "rotated=true,stackable=2": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_2",
+      "y": 90
+    },
+    "rotated=true,stackable=3": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_3",
+      "y": 90
+    },
+    "rotated=true,stackable=4": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_4",
+      "y": 90
+    },
+    "rotated=true,stackable=5": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_5",
+      "y": 90
+    },
+    "rotated=true,stackable=6": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_6",
+      "y": 90
+    },
+    "rotated=true,stackable=7": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_7",
+      "y": 90
+    },
+    "rotated=true,stackable=8": {
+      "model": "luckys_palette:block/stripped_mangrove_lumber_8",
+      "y": 90
+    }
+  }
+}

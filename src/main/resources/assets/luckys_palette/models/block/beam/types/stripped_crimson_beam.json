@@ -3,6 +3,6 @@
   "textures": {
     "0": "luckys_palette:block/beam/stripped_crimson_beam",
     "1": "luckys_palette:block/beam/blank_beam_overlay",
-    "particle": "block/crimson_log_top"
+    "particle": "block/crimson_stem_top"
   }
 }

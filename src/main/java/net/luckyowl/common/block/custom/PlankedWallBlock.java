@@ -24,7 +24,6 @@ import java.util.List;
 public class PlankedWallBlock extends PillarBlock {
     public static final MapCodec<PlankedWallBlock> CODEC = createCodec(PlankedWallBlock::new);
     public static final EnumProperty<VerticalLinearConnectionBlock> STACKABLE_BLOCK = ModProperties.VERTICAL_CONNECTION;
-    public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
     @Override
     public MapCodec<? extends PillarBlock> getCodec() {
