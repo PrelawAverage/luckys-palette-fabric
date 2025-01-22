@@ -70,7 +70,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_CRIMSON_BEAM);
                         entries.add(ModBlocks.STRIPPED_WARPED_BEAM);
 
-                        // LATTICE BLOCKS
+                        // LUMBER BLOCKS
                         entries.add(ModBlocks.OAK_LUMBER);
                         entries.add(ModBlocks.SPRUCE_LUMBER);
                         entries.add(ModBlocks.BIRCH_LUMBER);

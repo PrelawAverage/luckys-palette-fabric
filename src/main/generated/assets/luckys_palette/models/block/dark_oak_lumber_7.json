@@ -1,5 +1,5 @@
 {
-  "parent": "luckys_palette:block/lattice_7",
+  "parent": "luckys_palette:block/lumber_7",
   "textures": {
     "particle": "minecraft:block/dark_oak_log_top",
     "side": "minecraft:block/dark_oak_log",

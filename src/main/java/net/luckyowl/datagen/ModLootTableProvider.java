@@ -96,7 +96,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_CRIMSON_BEAM);
         addDrop(ModBlocks.STRIPPED_WARPED_BEAM);
 
-        // LATTICE BLOCKS
+        // LUMBER BLOCKS
         addLumberDrops(ModBlocks.OAK_LUMBER);
         addLumberDrops(ModBlocks.SPRUCE_LUMBER);
         addLumberDrops(ModBlocks.BIRCH_LUMBER);
@@ -122,13 +122,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     }
 
     // Copied from candle block
-    public LootTable.Builder addLumberDrops(Block lattice) {
+    public LootTable.Builder addLumberDrops(Block lumber) {
         return LootTable.builder().pool(LootPool.builder().rolls(ConstantLootNumberProvider.create(1.0F))
                 .with((LootPoolEntry.Builder)
-                        this.applyExplosionDecay(lattice, ItemEntry.builder(lattice)
+                        this.applyExplosionDecay(lumber, ItemEntry.builder(lumber)
                                 .apply(List.of(2, 3, 4, 5, 6, 7, 8), (stackable) ->
                                         SetCountLootFunction.builder(ConstantLootNumberProvider.create((float)stackable))
-                                                .conditionally(BlockStatePropertyLootCondition.builder(lattice)
+                                                .conditionally(BlockStatePropertyLootCondition.builder(lumber)
                                                 .properties(net.minecraft.predicate.StatePredicate.Builder.create().exactMatch(ModProperties.STACKABLE, stackable)))))));
     }
 }

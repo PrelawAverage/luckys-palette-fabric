@@ -1,5 +1,5 @@
 {
-  "parent": "luckys_palette:block/lattice",
+  "parent": "luckys_palette:block/lumber",
   "textures": {
     "particle": "luckys_palette:block/stripped_bamboo_block_top",
     "side": "minecraft:block/stripped_bamboo_block",

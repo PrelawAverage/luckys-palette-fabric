@@ -51,7 +51,7 @@ public class ModFlammableBlocks {
         flammableBlockRegistry.add(ModBlocks.STRIPPED_CHERRY_BEAM, 5, 20);
         flammableBlockRegistry.add(ModBlocks.STRIPPED_BAMBOO_BEAM, 5, 20);
 
-        // LATTICE BLOCKS
+        // LUMBER BLOCKS
         flammableBlockRegistry.add(ModBlocks.OAK_LUMBER, 5, 20);
         flammableBlockRegistry.add(ModBlocks.SPRUCE_LUMBER, 5, 20);
         flammableBlockRegistry.add(ModBlocks.BIRCH_LUMBER, 5, 20);

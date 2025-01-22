@@ -1,5 +1,5 @@
 {
-  "parent": "luckys_palette:block/lattice_8",
+  "parent": "luckys_palette:block/lumber_8",
   "textures": {
     "particle": "minecraft:block/stripped_spruce_log_top",
     "side": "minecraft:block/stripped_spruce_log",

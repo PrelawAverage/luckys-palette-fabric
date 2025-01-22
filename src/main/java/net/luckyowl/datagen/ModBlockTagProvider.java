@@ -72,7 +72,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STRIPPED_CRIMSON_BEAM)
                 .add(ModBlocks.STRIPPED_WARPED_BEAM)
 
-                // LATTICE BLOCKS
+                // LUMBER BLOCKS
                 .add(ModBlocks.OAK_LUMBER)
                 .add(ModBlocks.SPRUCE_LUMBER)
                 .add(ModBlocks.BIRCH_LUMBER)

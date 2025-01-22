@@ -50,7 +50,7 @@ public class ModFuels {
         FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_CHERRY_BEAM, 50);
         FuelRegistry.INSTANCE.add(ModBlocks.STRIPPED_BAMBOO_BEAM, 50);
 
-        // LATTICE BLOCKS
+        // LUMBER BLOCKS
         FuelRegistry.INSTANCE.add(ModBlocks.OAK_LUMBER, 150);
         FuelRegistry.INSTANCE.add(ModBlocks.SPRUCE_LUMBER, 150);
         FuelRegistry.INSTANCE.add(ModBlocks.BIRCH_LUMBER, 150);

@@ -40,7 +40,7 @@ public class ModBlocks {
     }
 
     private static Block createLumberBlock(Block block) {
-        return new LumberBlock(AbstractBlock.Settings.copy(block));
+        return new LumberBlock(AbstractBlock.Settings.copy(block).nonOpaque());
     }
 
     public static final Block BOOKSHELF_STAIRS = registerBlock("bookshelf_stairs", createStairsBlock(Blocks.BOOKSHELF));
