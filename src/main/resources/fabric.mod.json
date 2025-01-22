@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.luckyowl.LuckysPalette"
+			"net.luckystudio.LuckysPalette"
 		],
 		"client": [
-			"net.luckyowl.LuckysPaletteClient"
+			"net.luckystudio.LuckysPaletteClient"
 		],
 		"fabric-datagen": [
-			"net.luckyowl.LuckysPaletteDataGenerator"
+			"net.luckystudio.LuckysPaletteDataGenerator"
 		]
 	},
 	"mixins": [
