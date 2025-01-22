@@ -109,8 +109,8 @@ public class ModBlocks {
     public static final Block MANGROVE_LOG_LATTICE = registerBlock("mangrove_log_lattice", createLatticeBlock(Blocks.MANGROVE_PLANKS));
     public static final Block CHERRY_LOG_LATTICE = registerBlock("cherry_log_lattice", createLatticeBlock(Blocks.CHERRY_PLANKS));
     public static final Block BAMBOO_LATTICE = registerBlock("bamboo_lattice", createLatticeBlock(Blocks.BAMBOO_PLANKS));
-    public static final Block CRIMSON_STEM_LATTICE = registerBlock("crimson_lattice", createLatticeBlock(Blocks.CRIMSON_PLANKS));
-    public static final Block WARPED_STEM_LATTICE = registerBlock("warped_lattice", createLatticeBlock(Blocks.WARPED_PLANKS));
+    public static final Block CRIMSON_STEM_LATTICE = registerBlock("crimson_stem_lattice", createLatticeBlock(Blocks.CRIMSON_PLANKS));
+    public static final Block WARPED_STEM_LATTICE = registerBlock("warped_stem_lattice", createLatticeBlock(Blocks.WARPED_PLANKS));
     public static final Block STRIPPED_OAK_LOG_LATTICE = registerBlock("stripped_oak_log_lattice", createLatticeBlock(Blocks.OAK_PLANKS));
     public static final Block STRIPPED_SPRUCE_LOG_LATTICE = registerBlock("stripped_spruce_log_lattice", createLatticeBlock(Blocks.SPRUCE_PLANKS));
     public static final Block STRIPPED_BIRCH_LOG_LATTICE = registerBlock("stripped_birch_log_lattice", createLatticeBlock(Blocks.BIRCH_PLANKS));
