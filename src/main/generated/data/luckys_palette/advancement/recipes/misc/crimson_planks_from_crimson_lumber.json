@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crimson_lumber": {
+      "conditions": {
+        "items": [
+          {
+            "items": "luckys_palette:crimson_lumber"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crimson_planks_from_crimson_lumber"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crimson_lumber"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crimson_planks_from_crimson_lumber"
+    ]
+  }
+}

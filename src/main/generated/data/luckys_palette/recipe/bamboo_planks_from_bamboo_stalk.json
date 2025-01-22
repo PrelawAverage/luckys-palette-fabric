@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "building_blocks",
+  "ingredients": [
+    {
+      "item": "luckys_palette:bamboo_stalk"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bamboo_planks"
+  }
+}

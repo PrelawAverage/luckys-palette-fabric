@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "building_blocks",
+  "ingredients": [
+    {
+      "item": "luckys_palette:mangrove_lumber"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:mangrove_planks"
+  }
+}

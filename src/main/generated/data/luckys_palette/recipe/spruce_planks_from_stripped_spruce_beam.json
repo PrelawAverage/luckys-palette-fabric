@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "beam",
+  "ingredients": [
+    {
+      "item": "luckys_palette:stripped_spruce_beam"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:spruce_planks"
+  }
+}
