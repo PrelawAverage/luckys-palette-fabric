@@ -156,31 +156,26 @@ public class BeamBlock extends ConnectingBlock implements Waterloggable, Strippa
     }
 
     private static boolean isLongBeam(BlockState originBlock, WorldAccess world, BlockPos pos) {
+        // the back facing side of the beam block is always true
+        // when placed the back facing will always show as active
+        // even though the logic says otherwise.
         Direction frontFacing = originBlock.get(FACING);
-        Direction backFacing = frontFacing.getOpposite();
 
         BlockState frontBlock = world.getBlockState(pos.offset(frontFacing));
-        BlockState backBlock = world.getBlockState(pos.offset(backFacing));
 
         boolean isFrontConnected;
-        boolean isBackConnected;
+
 
         if (frontBlock.isAir()) return Boolean.FALSE;
 
         isFrontConnected = frontBlock.isSideSolidFullSquare(world, pos, frontFacing.getOpposite());
-        isBackConnected = backBlock.isSideSolidFullSquare(world, pos, backFacing.getOpposite()) || backBlock.isAir();
 
         if (isBeamBlock(frontBlock.getBlock())) {
             if (isSameAxis(frontBlock, originBlock.get(FACING))) isFrontConnected = true;
             if (!isSameAxis(frontBlock, originBlock.get(FACING)) && isLongBeam(frontBlock)) isFrontConnected = true;
         }
 
-        if (isBeamBlock(backBlock.getBlock())) {
-            if (isSameAxis(backBlock, originBlock.get(FACING))) isBackConnected = true;
-            if (!isSameAxis(backBlock, originBlock.get(FACING)) && isLongBeam(backBlock)) isBackConnected = true;
-        }
-
-        return isFrontConnected && isBackConnected;
+        return isFrontConnected;
     }
 
     private static boolean isSameAxis(BlockState targetBlock, Direction currentDirection) {
